@@ -1,0 +1,10 @@
+[package]
+name = "apmtool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+apm = { path = "../apm" }
+clap = { version = "4.5.9", features = ["derive"] }
+parse-size = { version = "1.0.0", features = ["std"] }
