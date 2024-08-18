@@ -1,0 +1,9 @@
+[package]
+name = "apm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deku = "0.17.0"
+derivative = "2.2.0"
+thiserror = "1.0.62"
